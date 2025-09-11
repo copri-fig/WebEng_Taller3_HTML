@@ -8,11 +8,21 @@
 <body>
     <header>
         <h1>Juan Copri</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mi</a> | <a href="#libros">Libros</a> | <a href="#peliculas">Peliculas</a> | <a href="#canciones">Canciones favoritas</a> | <a href="#multimedia">Multimedia</a>
+        </nav>
     </header>
     
     <main>
-        <section id="sobre-mi">
+        <article id="sobre-mi">
             <h2>Sobre mi</h2>
+            <section class="media-item">
+                <video width="768" height="432" controls>
+                    <source src="videos\video_presentacion_copri.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section class="texto-intro">
             <p>
                 Mi nombre es Juan Copri y soy estudiante de Ingeniería de Software en la Universidad Tecnológica de Panamá, actualmente
                 cursando el tercer año. Durante mi formación académica he desarrollado habilidades en lenguajes como Java, C o Visual
@@ -28,9 +38,14 @@
                 programas centrado en las personas y no en si mismo. Aspiro poder combinar ambos conocimientos y habilidades de HCI
                 y docencia para tener una experiencia educativa de calidad, inclusiva y humana.
             </p>
-            <img src="imagenes\DSC00953.jpg" alt="imagen" width="250" height="320"> <br> 
             <a href="https://www.twitch.tv/">Mi sitio web favorito</a>
-        </section>
+            </section>
+            <figure class="foto-perfil">
+                <img src="imagenes/DSC00953.jpg" alt="Foto de Juan Copri" width="250" height="320">
+                <figcaption>Juan Copri</figcaption>
+            </figure>
+             
+        </article>
 
         <section id="libros">
             <h2>Mis libros favoritos</h2>
@@ -192,18 +207,8 @@
         </section>
 
         <section id="multimedia">
-            <section id="multimedia">
             <h2>Multimedia</h2>
             
-            <article class="media-item">
-                <h3>Video de presentación</h3>
-                <div class="video-container">
-                    <video width="768" height="432" controls>
-                        <source src="videos\video_presentacion_copri.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </article>
-
             <article class="media-item">
                 <h3>Mi canción favorita: Zenith - Ghost</h3>
                 <div class="audio-container">
